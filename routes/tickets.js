@@ -27,7 +27,7 @@ router.post("/", validateTicket,(req, res)=>{
     }
     //Add tickets to the array
     tickets.push(newTicket);
-    //Respond with the new  ticket 
+    //Respond with the new  ticket
     res.status(201).json(newTicket)
 })
 // UPDATE ticket by id
@@ -49,7 +49,7 @@ router.put('/:id', (req, res)=>{
 })
 
 //DELETE ticket by id
-router.delete("/:id" , (res, res) => {
+router.delete("/:id" , (req, res) => {
     const ticketId = Number(req.params.id)
     tickets.filter(ticket => ticket.id !== ticketId)
     res.json({message: 'Ticket deleted'})

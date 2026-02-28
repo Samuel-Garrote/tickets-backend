@@ -1,14 +1,14 @@
-# Ticketing & Resource Management System
+# Ticketing System API (Backend)
+A lightweight Node.js engine designed for high-speed resource allocation and state management.
 
-A streamlined ticketing platform designed for high-speed interactions and efficient resource allocation.
-
-### 🖥️ Project Scope
-*   **Data Management:** Optimized for client-side persistence and fast state transitions, ensuring a lag-free experience for operational users.
-*   **State Integrity:** Implemented robust logic to handle complex booking flows and ticket statuses without data collisions.
-*   **Modular Architecture:** Built with a clear separation between UI components and data handling logic, making it easy to scale with an external API or database in the future.
-*   **User-Centric Design:** Focused on a high-fidelity dashboard that simplifies complex administrative tasks into intuitive workflows.
+### ⚙️ System Logic & Scope
+*   **State Integrity:** Implemented server-side logic to handle complex booking flows and ticket status transitions without data collisions.
+*   **Data Handling:** Optimized for fast response times and seamless integration with the React frontend.
+*   **Modular Architecture:** Built with a clear separation between business logic and API routes, allowing for easy scaling to a relational database (PostgreSQL) in the future.
+*   **Security:** Prepared for JWT authentication and role-based access control (RBAC).
 
 ### 🛠 Tech Stack
-*   **Frontend:** React.js and CSS
-*   **Data Handling:** LocalStorage Persistence / Lightweight Node.js API (depending on version)
-*   **State Management:** React Context / Hooks
+*   **Runtime:** Node.js
+*   **Framework:** Express
+*   **Architecture:** RESTful API
+*   **Persistence:** Lightweight JSON/Local storage logic (Transitioning to SQL)

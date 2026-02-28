@@ -9,6 +9,6 @@ A streamlined ticketing platform designed for high-speed interactions and effici
 *   **User-Centric Design:** Focused on a high-fidelity dashboard that simplifies complex administrative tasks into intuitive workflows.
 
 ### 🛠 Tech Stack
-*   **Frontend:** React.js, Tailwind CSS
+*   **Frontend:** React.js and CSS
 *   **Data Handling:** LocalStorage Persistence / Lightweight Node.js API (depending on version)
 *   **State Management:** React Context / Hooks
